@@ -8,6 +8,29 @@
   <artifactId>npc-lib</artifactId>
   <version>development-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
+  <name>npc-lib</name>
+  <description>Asynchronous, high-performance Minecraft NPC library for 1.8-1.18 servers. (Forked from juliarn/NPC-Lib for maven publishing)</description>
+  <url>https://github.com/RedstoneWizard08/NPC-Lib</url>
+  
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+      <name>juliarn</name>
+    </developer>
+  </developers>
+  
+  <scm>
+    <connection>scm:git:git://github.com/RedstoneWizard08/NPC-Lib.git</connection>
+    <developerConnection>scm:git:ssh://github.com:RedstoneWizard08/NPC-Lib.git</developerConnection>
+    <url>https://github.com/RedstoneWizard08/NPC-Lib/tree/development</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
