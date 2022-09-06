@@ -6,7 +6,7 @@
 
   <groupId>com.github.juliarn</groupId>
   <artifactId>npc-lib</artifactId>
-  <version>DEVELOPMENT-SNAPSHOT</version>
+  <version>development-SNAPSHOT</version>
   <packaging>jar</packaging>
   
   <distributionManagement>
