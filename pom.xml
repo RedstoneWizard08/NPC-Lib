@@ -13,6 +13,13 @@
   <description>Asynchronous, high-performance Minecraft NPC library for 1.8-1.18 servers. (Forked from juliarn/NPC-Lib for maven publishing)</description>
   <url>https://github.com/RedstoneWizard08/NPC-Lib</url>
   
+  <distributionManagement>
+    <snapshotRepository>
+      <id>mavencentral</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
   <licenses>
     <license>
       <name>MIT License</name>
