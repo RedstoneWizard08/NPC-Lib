@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.juliarn</groupId>
+  <artifactId>npc-lib</artifactId>
+  <versioning>
+    <lastUpdated>20220907000111</lastUpdated>
+    <snapshot>
+      <timestamp>20220907.000111</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>development-20220907.000111-1</value>
+        <updated>20220907000111</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>development-20220907.000111-1</value>
+        <updated>20220907000111</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>development-20220907.000111-1</value>
+        <updated>20220907000111</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>development-20220907.000111-1</value>
+        <updated>20220907000111</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>development-SNAPSHOT</version>
+</metadata>
