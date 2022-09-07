@@ -1,12 +1,12 @@
 name: Build with Maven
 
-on: [ create, push, pull_request ]
+on: [ push ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions: 
-      contents: read
+      contents: write
       packages: write
     steps:
       - uses: actions/checkout@v2
@@ -16,4 +16,10 @@ jobs:
           java-version: 11
           distribution: 'adopt'
       - name: Publish package
-        run: mvn --batch-mode deploy
+        run: mvn --batch-mode deploy -DaltDeploymentRepository=snapshot-repo::default::file:./repo
+      
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: repo
+
